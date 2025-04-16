@@ -53,7 +53,7 @@ function Register() {
                     profilePicture: url,
                 };
 
-                await axios.post("http://localhost:5500/api/users/register",
+                await axios.post("https://travel-journal-hed0.onrender.com/api/users/register",
                     newUser, { withcredentials: false })
 
                 navigate("/login");
