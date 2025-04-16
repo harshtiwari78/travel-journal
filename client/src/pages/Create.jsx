@@ -54,7 +54,7 @@ const Create = () => {
 
 
         try {
-            const response = await axios.post('https://travel-journal-hed0.onrender.com',
+            const response = await axios.post('https://travel-journal-hed0.onrender.com/api/entries/',
                 newEntry, {
                 withCredentials: false
             })
