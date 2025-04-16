@@ -35,7 +35,7 @@ app.use(helmet());
 
 
 app.use(cors({
-   origin: "https://travel-journal-hed0.onrender.com",
+   origin: "https://travel-journal-sepia-eight.vercel.app/",
    credentials: true
 }))
 
