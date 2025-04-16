@@ -35,7 +35,7 @@ app.use(helmet());
 
 
 app.use(cors({
-   origin: "http://localhost:3000",
+   origin: "https://travel-journal-hed0.onrender.com",
    credentials: true
 }))
 
