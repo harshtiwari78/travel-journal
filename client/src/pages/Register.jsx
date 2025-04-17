@@ -62,7 +62,7 @@ function Register() {
             }
         } else {
             try {
-                await axios.post("http://localhost:5500/api/users/register",
+                await axios.post("https://travel-journal-hed0.onrender.com/api/users/register",
                     info, { withcredentials: false })
 
                 navigate("/login");
